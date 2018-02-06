@@ -668,3 +668,220 @@ Processing by QuotesController#index as HTML
 Completed 200 OK in 12494ms (Views: 12371.7ms | ActiveRecord: 2.0ms)
 
 
+Started GET "/quotes/new" for 10.0.2.2 at 2018-02-06 17:45:54 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#new as HTML
+  Rendering quotes/new.html.erb within layouts/application
+  Rendered quotes/new.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 1302ms (Views: 1149.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/quotes/new" for 10.0.2.2 at 2018-02-06 20:18:36 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (1.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by QuotesController#new as HTML
+  Rendering quotes/new.html.erb within layouts/application
+  Rendered quotes/new.html.erb within layouts/application (666.0ms)
+Completed 200 OK in 7952ms (Views: 7790.1ms | ActiveRecord: 9.6ms)
+
+
+Started GET "/" for 10.0.2.2 at 2018-02-06 20:27:11 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (4.2ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering quotes/index.html.erb within layouts/application
+  Rendered quotes/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 795ms (Views: 687.0ms | ActiveRecord: 4.2ms)
+
+
+Started GET "/new_quote_path" for 10.0.2.2 at 2018-02-06 20:27:18 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+ActionController::RoutingError (No route matches [GET] "/new_quote_path"):
+  
+actionpack (5.0.6) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:20:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.6) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.6) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.6) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.6) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.6) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.6) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered collection of /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb [9 times] (39.5ms)
+  Rendered /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (10.3ms)
+  Rendering /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (4.8ms)
+  Rendered /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (110.8ms)
+Started GET "/" for 10.0.2.2 at 2018-02-06 20:27:26 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (1.6ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering quotes/index.html.erb within layouts/application
+  Rendered quotes/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 925ms (Views: 876.8ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/" for 10.0.2.2 at 2018-02-06 20:28:14 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (9.3ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering quotes/index.html.erb within layouts/application
+  Rendered quotes/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 1009ms (Views: 939.7ms | ActiveRecord: 9.3ms)
+
+
+Started GET "/" for 10.0.2.2 at 2018-02-06 20:28:57 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (1.2ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering quotes/index.html.erb within layouts/application
+  Rendered quotes/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 806ms (Views: 740.6ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/new_quote_path" for 10.0.2.2 at 2018-02-06 20:29:00 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+ActionController::RoutingError (No route matches [GET] "/new_quote_path"):
+  
+actionpack (5.0.6) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:20:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.6) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.6) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.6) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.6) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.6) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.6) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered collection of /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb [9 times] (6.1ms)
+  Rendered /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.4ms)
+  Rendering /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (54.9ms)
+Started GET "/" for 10.0.2.2 at 2018-02-06 20:30:58 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (3.5ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering quotes/index.html.erb within layouts/application
+  Rendered quotes/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 724ms (Views: 665.5ms | ActiveRecord: 3.5ms)
+
+
+Started GET "/" for 10.0.2.2 at 2018-02-06 20:31:01 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (0.0ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering quotes/index.html.erb within layouts/application
+  Rendered quotes/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 982ms (Views: 907.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/quotes/new" for 10.0.2.2 at 2018-02-06 20:31:03 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#new as HTML
+  Rendering quotes/new.html.erb within layouts/application
+  Rendered quotes/new.html.erb within layouts/application (29.2ms)
+Completed 200 OK in 709ms (Views: 674.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/quotes/new" for 10.0.2.2 at 2018-02-06 20:31:28 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#new as HTML
+  Rendering quotes/new.html.erb within layouts/application
+  Rendered quotes/new.html.erb within layouts/application (23.2ms)
+Completed 200 OK in 827ms (Views: 785.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/quotes/new" for 10.0.2.2 at 2018-02-06 20:32:46 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#new as HTML
+  Rendering quotes/new.html.erb within layouts/application
+  Rendered quotes/new.html.erb within layouts/application (24.9ms)
+Completed 200 OK in 865ms (Views: 805.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/quotes/new" for 10.0.2.2 at 2018-02-06 20:33:13 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#new as HTML
+  Rendering quotes/new.html.erb within layouts/application
+  Rendered quotes/new.html.erb within layouts/application (22.6ms)
+Completed 200 OK in 695ms (Views: 652.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2018-02-06 20:33:20 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (1.0ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering quotes/index.html.erb within layouts/application
+  Rendered quotes/index.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 838ms (Views: 788.7ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2018-02-06 20:33:23 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (1.5ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering quotes/index.html.erb within layouts/application
+  Rendered quotes/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 684ms (Views: 638.3ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/" for 10.0.2.2 at 2018-02-06 20:35:34 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (0.0ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering quotes/index.html.erb within layouts/application
+  Rendered quotes/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 12510ms (Views: 12459.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2018-02-06 20:40:59 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (1.8ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering quotes/index.html.erb within layouts/application
+  Rendered quotes/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 803ms (Views: 743.6ms | ActiveRecord: 1.8ms)
+
+
