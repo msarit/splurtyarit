@@ -10,7 +10,7 @@
 
   <body>
     <header class="row">
-      <div class="col-3">
+      <div class="col-2">
         <%= link_to root_path, class: 'logo' do %>
         <div class="circle">
           <br />
@@ -22,10 +22,10 @@
         </div>
         <% end %>
       </div>
-      <div class="col-4 slogan">
-        Splurting out unsolicited advice about parenting since 2016
+      <div class="col-6 slogan">
+        Splurting out unsolicited parenting challenges since 2018
       </div>
-      <div class="col-5 links">
+      <div class="col-4 links">
         <%= link_to 'Contribute', new_quote_path %>
         <%= link_to 'About', about_path %>
       </div>
@@ -41,6 +41,7 @@
         </div>
       <% end %>
     <%= yield %>
+    <button class="btn btn-default btn-info">VIEW NEW QUOTE</button>
     </div>
 
      <footer class="footer">
@@ -51,7 +52,7 @@
             </div>
             <div class="col-6 footer-blurb">
               Proudly hacked in Silver Spring, MD by <a href="https://aritamana.com">Arit</a><br />
-              Want to build your own Splurty Web App - <a href="http://thefirehoseproject.com">Learn how to code here</a>
+              Want to build your own Splurty Web App? <a href="http://thefirehoseproject.com">Learn how to code here</a>
             </div>
         </div>
       </div>
