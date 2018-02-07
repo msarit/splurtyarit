@@ -43,8 +43,9 @@
             </button>
             <h4 class="modal-title" id="myModalLabel">Contribute Your Quote</h4>
           </div>
+          <%= simple_form_for Quote.new do |f| %>
           <div class="modal-body">
-            <%= simple_form_for Quote.new do |f| %>
+
               <%= f.input :saying, label: "What is the saying you want to add?", placeholder: "e.g. The only painful experience I'd gladly repeat is childbirth." %>
               <br />
               <%= f.input :author, label: "Who is the author of the quote?", placeholder: "e.g. Arit Amana Okwu" %>
