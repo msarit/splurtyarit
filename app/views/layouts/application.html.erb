@@ -22,10 +22,10 @@
         </div>
         <% end %>
       </div>
-      <div class="col-6 slogan">
-        Splurting out unsolicited parenting challenges since 2018
+      <div class="col col-sm-4 hidden-xs-down slogan">
+        Sharing unsolicited parenting woes since 2018
       </div>
-      <div class="col-4 links">
+      <div class="col-10 offset-1 offset-sm-0 col-sm-5 links">
          <!-- Link to trigger modal -->
         <%= link_to 'Contribute', '#', data: {toggle: 'modal', target: '#myModal'} %>
         <%= link_to 'About', about_path %>
@@ -45,8 +45,9 @@
           </div>
           <div class="modal-body">
             <%= simple_form_for Quote.new do |f| %>
-              <%= f.input :saying %>
-              <%= f.input :author %>
+              <%= f.input :saying, label: "What is the saying you want to add?", placeholder: "e.g. The only painful experience I'd gladly repeat is childbirth." %>
+              <br />
+              <%= f.input :author, label: "Who is the author of the quote?", placeholder: "e.g. Arit Amana Okwu" %>
               <br />
           </div>
           <div class="modal-footer">
@@ -69,15 +70,19 @@
       <% end %>
     <%= yield %>
     </div>
+    <br class="clear" />
+    <br />
+    <br />
+    <br />
 
      <footer class="footer">
       <div class="container">
         <div class="row">
-            <div class="col-6">
+            <div class="col-12 col-sm-6">
               <%= link_to "Show Me More!", root_path, class: 'next-quote' %>
             </div>
-            <div class="col-6 footer-blurb">
-              Proudly hacked in Silver Spring, MD by <a href="https://aritamana.com">Arit</a><br />
+            <div class="col-12 col-sm-6 footer-blurb">
+              Proudly built by <a href="https://aritamana.com">Arit</a><br />
               Want to build your own Splurty Web App? <a href="http://thefirehoseproject.com">Learn how to code here</a>
             </div>
         </div>
