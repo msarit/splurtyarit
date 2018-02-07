@@ -2915,3 +2915,52 @@ Processing by QuotesController#index as HTML
 Completed 200 OK in 10059ms (Views: 10002.8ms | ActiveRecord: 0.9ms)
 
 
+Started GET "/" for 10.0.2.2 at 2018-02-07 18:47:40 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (0.0ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering quotes/index.html.erb within layouts/application
+  Rendered quotes/index.html.erb within layouts/application (22.9ms)
+Completed 200 OK in 713ms (Views: 660.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 10.0.2.2 at 2018-02-07 18:49:56 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#about as HTML
+  Rendering quotes/about.html.erb within layouts/application
+  Rendered quotes/about.html.erb within layouts/application (39.6ms)
+Completed 200 OK in 886ms (Views: 844.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 10.0.2.2 at 2018-02-07 18:52:09 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#about as HTML
+  Rendering quotes/about.html.erb within layouts/application
+  Rendered quotes/about.html.erb within layouts/application (28.6ms)
+Completed 200 OK in 762ms (Views: 702.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 10.0.2.2 at 2018-02-07 18:54:33 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#about as HTML
+  Rendering quotes/about.html.erb within layouts/application
+  Rendered quotes/about.html.erb within layouts/application (19.4ms)
+Completed 200 OK in 730ms (Views: 674.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 10.0.2.2 at 2018-02-07 18:55:36 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#about as HTML
+  Rendering quotes/about.html.erb within layouts/application
+  Rendered quotes/about.html.erb within layouts/application (22.2ms)
+Completed 200 OK in 691ms (Views: 643.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 10.0.2.2 at 2018-02-07 18:55:52 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#about as HTML
+  Rendering quotes/about.html.erb within layouts/application
+  Rendered quotes/about.html.erb within layouts/application (19.6ms)
+Completed 200 OK in 9471ms (Views: 9428.7ms | ActiveRecord: 0.0ms)
+
+
