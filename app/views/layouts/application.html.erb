@@ -26,10 +26,37 @@
         Splurting out unsolicited parenting challenges since 2018
       </div>
       <div class="col-4 links">
-        <%= link_to 'Contribute', new_quote_path %>
+         <!-- Link to trigger modal -->
+        <%= link_to 'Contribute', '#', data: {toggle: 'modal', target: '#myModal'} %>
         <%= link_to 'About', about_path %>
       </div>
     </header>
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">×</span>
+            </button>
+            <h4 class="modal-title" id="myModalLabel">Contribute Your Quote</h4>
+          </div>
+          <div class="modal-body">
+            <%= simple_form_for Quote.new do |f| %>
+              <%= f.input :saying %>
+              <%= f.input :author %>
+              <br />
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+            <%= f.submit 'Create', class: 'btn btn-danger' %>
+          </div>
+          <% end %>
+        </div>
+      </div>
+    </div>
 
     <hr />
 
@@ -41,14 +68,13 @@
         </div>
       <% end %>
     <%= yield %>
-    <%= link_to 'VIEW NEW QUOTE', "", class: 'view-more' %>
     </div>
 
      <footer class="footer">
       <div class="container">
         <div class="row">
             <div class="col-6">
-              <%= link_to "This isn't enough, I need more!", root_path, class: 'next-quote' %>
+              <%= link_to "Show Me More!", root_path, class: 'next-quote' %>
             </div>
             <div class="col-6 footer-blurb">
               Proudly hacked in Silver Spring, MD by <a href="https://aritamana.com">Arit</a><br />

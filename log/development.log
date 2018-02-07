@@ -2281,3 +2281,319 @@ Processing by QuotesController#index as HTML
 Completed 200 OK in 10023ms (Views: 9973.5ms | ActiveRecord: 1.2ms)
 
 
+Started GET "/" for 10.0.2.2 at 2018-02-07 01:20:09 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (1.7ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering quotes/index.html.erb within layouts/application
+  Rendered quotes/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 842ms (Views: 791.5ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/" for 10.0.2.2 at 2018-02-07 15:13:04 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (25.7ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (26.4ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering quotes/index.html.erb within layouts/application
+  Rendered quotes/index.html.erb within layouts/application (33.2ms)
+Completed 200 OK in 11341ms (Views: 10878.6ms | ActiveRecord: 88.3ms)
+
+
+Started GET "/" for 10.0.2.2 at 2018-02-07 15:14:54 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (2.6ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering quotes/index.html.erb within layouts/application
+  Rendered quotes/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 745ms (Views: 684.8ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/" for 10.0.2.2 at 2018-02-07 15:17:27 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (0.8ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering quotes/index.html.erb within layouts/application
+  Rendered quotes/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 727ms (Views: 668.1ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/" for 10.0.2.2 at 2018-02-07 15:18:19 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (0.5ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering quotes/index.html.erb within layouts/application
+  Rendered quotes/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 746ms (Views: 697.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 10.0.2.2 at 2018-02-07 15:19:42 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (0.4ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering quotes/index.html.erb within layouts/application
+  Rendered quotes/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 832ms (Views: 781.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 10.0.2.2 at 2018-02-07 15:38:55 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (0.7ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering quotes/index.html.erb within layouts/application
+  Rendered quotes/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 12562ms (Views: 12508.8ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 10.0.2.2 at 2018-02-07 15:42:02 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (3.5ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering quotes/index.html.erb within layouts/application
+  Rendered quotes/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 915ms (Views: 859.0ms | ActiveRecord: 3.5ms)
+
+
+Started GET "/about" for 10.0.2.2 at 2018-02-07 15:42:51 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#about as HTML
+  Rendering quotes/about.html.erb within layouts/application
+  Rendered quotes/about.html.erb within layouts/application (31.6ms)
+Completed 500 Internal Server Error in 1159ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `model_name' for nil:NilClass):
+    44:             <h4 class="modal-title" id="myModalLabel">Contribute Your Quote</h4>
+    45:           </div>
+    46:           <div class="modal-body">
+    47:             <%= simple_form_for @quote do |f| %>
+    48:               <%= f.input :saying %>
+    49:               <%= f.input :author %>
+    50:               <br />
+  
+app/views/layouts/application.html.erb:47:in `_app_views_layouts_application_html_erb___4095346528926216103_69928146352260'
+  Rendering /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (14.4ms)
+  Rendering /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendering /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (65.8ms)
+Started GET "/" for 10.0.2.2 at 2018-02-07 15:42:59 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (0.9ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering quotes/index.html.erb within layouts/application
+  Rendered quotes/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 893ms (Views: 846.8ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/about" for 10.0.2.2 at 2018-02-07 15:43:38 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#about as HTML
+  Rendering quotes/about.html.erb within layouts/application
+  Rendered quotes/about.html.erb within layouts/application (31.1ms)
+Completed 500 Internal Server Error in 800ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `model_name' for nil:NilClass):
+    44:             <h4 class="modal-title" id="myModalLabel">Contribute Your Quote</h4>
+    45:           </div>
+    46:           <div class="modal-body">
+    47:             <%= simple_form_for @quote do |f| %>
+    48:               <%= f.input :saying %>
+    49:               <%= f.input :author %>
+    50:               <br />
+  
+app/views/layouts/application.html.erb:47:in `_app_views_layouts_application_html_erb___4095346528926216103_69928149736480'
+  Rendering /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (7.3ms)
+  Rendering /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.5ms)
+  Rendering /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (49.5ms)
+Started GET "/" for 10.0.2.2 at 2018-02-07 15:45:43 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (0.5ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering quotes/index.html.erb within layouts/application
+  Rendered quotes/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 700ms (Views: 654.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 10.0.2.2 at 2018-02-07 15:45:47 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (0.8ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering quotes/index.html.erb within layouts/application
+  Rendered quotes/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 655ms (Views: 611.7ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/" for 10.0.2.2 at 2018-02-07 15:46:13 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (2.4ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering quotes/index.html.erb within layouts/application
+  Rendered quotes/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 730ms (Views: 673.1ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/" for 10.0.2.2 at 2018-02-07 15:46:56 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (4.2ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering quotes/index.html.erb within layouts/application
+  Rendered quotes/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 777ms (Views: 720.9ms | ActiveRecord: 4.2ms)
+
+
+Started GET "/about" for 10.0.2.2 at 2018-02-07 15:46:59 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#about as HTML
+  Rendering quotes/about.html.erb within layouts/application
+  Rendered quotes/about.html.erb within layouts/application (38.3ms)
+Completed 500 Internal Server Error in 833ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `model_name' for nil:NilClass):
+    44:             <h4 class="modal-title" id="myModalLabel">Contribute Your Quote</h4>
+    45:           </div>
+    46:           <div class="modal-body">
+    47:             <%= simple_form_for @quote do |f| %>
+    48:               <%= f.input :saying %>
+    49:               <%= f.input :author %>
+    50:               <br />
+  
+app/views/layouts/application.html.erb:47:in `_app_views_layouts_application_html_erb___4095346528926216103_69928211183120'
+  Rendering /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (6.3ms)
+  Rendering /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (7.1ms)
+  Rendering /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (59.7ms)
+Started GET "/" for 10.0.2.2 at 2018-02-07 15:47:11 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (0.0ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering quotes/index.html.erb within layouts/application
+  Rendered quotes/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 878ms (Views: 835.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2018-02-07 15:47:51 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (5.4ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering quotes/index.html.erb within layouts/application
+  Rendered quotes/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 712ms (Views: 661.6ms | ActiveRecord: 5.4ms)
+
+
+Started GET "/about" for 10.0.2.2 at 2018-02-07 15:47:54 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#about as HTML
+  Rendering quotes/about.html.erb within layouts/application
+  Rendered quotes/about.html.erb within layouts/application (26.7ms)
+Completed 500 Internal Server Error in 732ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `model_name' for nil:NilClass):
+    44:             <h4 class="modal-title" id="myModalLabel">Contribute Your Quote</h4>
+    45:           </div>
+    46:           <div class="modal-body">
+    47:             <%= simple_form_for @quote do |f| %>
+    48:               <%= f.input :saying %>
+    49:               <%= f.input :author %>
+    50:               <br />
+  
+app/views/layouts/application.html.erb:47:in `_app_views_layouts_application_html_erb___4095346528926216103_69928156958100'
+  Rendering /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (9.4ms)
+  Rendering /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (9.3ms)
+  Rendering /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (58.3ms)
+Started GET "/" for 10.0.2.2 at 2018-02-07 15:47:57 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (4.7ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering quotes/index.html.erb within layouts/application
+  Rendered quotes/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 896ms (Views: 847.7ms | ActiveRecord: 4.7ms)
+
+
+Started GET "/" for 10.0.2.2 at 2018-02-07 16:00:22 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (1.0ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering quotes/index.html.erb within layouts/application
+  Rendered quotes/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 732ms (Views: 681.7ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2018-02-07 16:06:14 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (5.1ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering quotes/index.html.erb within layouts/application
+  Rendered quotes/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 713ms (Views: 673.5ms | ActiveRecord: 5.1ms)
+
+
+Started GET "/about" for 10.0.2.2 at 2018-02-07 16:14:52 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#about as HTML
+  Rendering quotes/about.html.erb within layouts/application
+  Rendered quotes/about.html.erb within layouts/application (32.2ms)
+Completed 200 OK in 745ms (Views: 696.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2018-02-07 16:17:40 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (0.9ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering quotes/index.html.erb within layouts/application
+  Rendered quotes/index.html.erb within layouts/application (1.4ms)
+Completed 500 Internal Server Error in 1415ms (ActiveRecord: 0.9ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `f' for #<#<Class:0x007f33019a22a8>:0x007f32e01e3a10>):
+    53:           </div>
+    54:           <div class="modal-footer">
+    55:             <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+    56:             <%= f.submit 'Create', class: 'btn btn-danger' %>
+    57: <!--             <button type="button" class="btn btn-primary">Save changes</button> -->
+    58:           </div>
+    59:         </div>
+  
+app/views/layouts/application.html.erb:56:in `_app_views_layouts_application_html_erb___4095346528926216103_69928242577700'
+  Rendering /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (6.0ms)
+  Rendering /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.2ms)
+  Rendering /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (45.6ms)
+Started GET "/" for 10.0.2.2 at 2018-02-07 16:18:34 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (4.2ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering quotes/index.html.erb within layouts/application
+  Rendered quotes/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 686ms (Views: 633.5ms | ActiveRecord: 4.2ms)
+
+

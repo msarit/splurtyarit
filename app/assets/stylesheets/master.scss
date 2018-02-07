@@ -55,6 +55,10 @@ body {
 
 }
 
+.links a:focus {
+  text-decoration: none;
+}
+
 header {
   border-top: 9px solid #222222;
 }
