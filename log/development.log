@@ -2101,3 +2101,183 @@ Processing by QuotesController#index as HTML
 Completed 200 OK in 9546ms (Views: 9490.0ms | ActiveRecord: 0.9ms)
 
 
+Started GET "/" for 10.0.2.2 at 2018-02-07 01:12:15 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (1.4ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering quotes/index.html.erb within layouts/application
+  Rendered quotes/index.html.erb within layouts/application (0.8ms)
+Completed 500 Internal Server Error in 261ms (ActiveRecord: 1.4ms)
+
+
+  
+SyntaxError (/vagrant/src/splurty/app/views/layouts/application.html.erb:44: syntax error, unexpected keyword_class, expecting keyword_do or '{' or '('
+...eeze;     link_to <button class="btn btn-default btn-info">V...
+...                               ^
+/vagrant/src/splurty/app/views/layouts/application.html.erb:44: syntax error, unexpected tCONSTANT, expecting keyword_do or '{' or '('
+... btn-default btn-info">VIEW NEW QUOTE</button>, "" 
+...                               ^
+/vagrant/src/splurty/app/views/layouts/application.html.erb:45: unknown regexp options - dv
+/vagrant/src/splurty/app/views/layouts/application.html.erb:47: syntax error, unexpected '<'
+     <footer class="footer">
+      ^
+/vagrant/src/splurty/app/views/layouts/application.html.erb:48: syntax error, unexpected '<'
+      <div class="container">
+       ^
+/vagrant/src/splurty/app/views/layouts/application.html.erb:49: syntax error, unexpected '<'
+        <div class="row">
+         ^
+/vagrant/src/splurty/app/views/layouts/application.html.erb:50: syntax error, unexpected '<'
+            <div class="col-6">
+             ^
+/vagrant/src/splurty/app/views/layouts/application.html.erb:51: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+...er.append=( link_to "This isn't enough, I need more!", root_...
+...                               ^
+/vagrant/src/splurty/app/views/layouts/application.html.erb:51: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+...k_to "This isn't enough, I need more!", root_path, class: 'n...
+...                               ^
+/vagrant/src/splurty/app/views/layouts/application.html.erb:53: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+            <div class="col-6 footer-blurb">
+                           ^
+/vagrant/src/splurty/app/views/layouts/application.html.erb:53: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+            <div class="col-6 footer-blurb">
+                                    ^
+/vagrant/src/splurty/app/views/layouts/application.html.erb:53: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+            <div class="col-6 footer-blurb">
+                                           ^
+/vagrant/src/splurty/app/views/layouts/application.html.erb:54: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+...er Spring, MD by <a href="https://aritamana.com">Arit</a><br...
+...                               ^
+/vagrant/src/splurty/app/views/layouts/application.html.erb:54: unknown regexp options - artaaa
+/vagrant/src/splurty/app/views/layouts/application.html.erb:55: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+... Splurty Web App? <a href="http://thefirehoseproject.com">Le...
+...                               ^
+/vagrant/src/splurty/app/views/layouts/application.html.erb:55: unknown regexp options - thfrhprjct
+/vagrant/src/splurty/app/views/layouts/application.html.erb:55: unterminated string meets end of file
+/vagrant/src/splurty/app/views/layouts/application.html.erb:55: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+app/views/layouts/application.html.erb:44: syntax error, unexpected keyword_class, expecting keyword_do or '{' or '('
+app/views/layouts/application.html.erb:44: syntax error, unexpected tCONSTANT, expecting keyword_do or '{' or '('
+app/views/layouts/application.html.erb:45: unknown regexp options - dv
+app/views/layouts/application.html.erb:47: syntax error, unexpected '<'
+app/views/layouts/application.html.erb:48: syntax error, unexpected '<'
+app/views/layouts/application.html.erb:49: syntax error, unexpected '<'
+app/views/layouts/application.html.erb:50: syntax error, unexpected '<'
+app/views/layouts/application.html.erb:51: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+app/views/layouts/application.html.erb:51: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+app/views/layouts/application.html.erb:53: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+app/views/layouts/application.html.erb:53: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+app/views/layouts/application.html.erb:53: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+app/views/layouts/application.html.erb:54: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+app/views/layouts/application.html.erb:54: unknown regexp options - artaaa
+app/views/layouts/application.html.erb:55: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+app/views/layouts/application.html.erb:55: unknown regexp options - thfrhprjct
+app/views/layouts/application.html.erb:55: unterminated string meets end of file
+app/views/layouts/application.html.erb:55: syntax error, unexpected end-of-input, expecting keyword_end
+  Rendering /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (6.6ms)
+  Rendering /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.1ms)
+  Rendering /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (4.6ms)
+  Rendered /home/vagrant/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (44.9ms)
+Started GET "/" for 10.0.2.2 at 2018-02-07 01:13:00 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (3.1ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering quotes/index.html.erb within layouts/application
+  Rendered quotes/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 674ms (Views: 618.3ms | ActiveRecord: 3.1ms)
+
+
+Started GET "/" for 10.0.2.2 at 2018-02-07 01:13:06 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (1.1ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering quotes/index.html.erb within layouts/application
+  Rendered quotes/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 644ms (Views: 591.7ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/" for 10.0.2.2 at 2018-02-07 01:13:09 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (1.1ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering quotes/index.html.erb within layouts/application
+  Rendered quotes/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 719ms (Views: 661.7ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/" for 10.0.2.2 at 2018-02-07 01:13:12 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (2.4ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering quotes/index.html.erb within layouts/application
+  Rendered quotes/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 655ms (Views: 602.1ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/" for 10.0.2.2 at 2018-02-07 01:13:38 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (1.1ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering quotes/index.html.erb within layouts/application
+  Rendered quotes/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 677ms (Views: 632.6ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/" for 10.0.2.2 at 2018-02-07 01:14:19 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (0.9ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering quotes/index.html.erb within layouts/application
+  Rendered quotes/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 9843ms (Views: 9793.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/" for 10.0.2.2 at 2018-02-07 01:15:07 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (1.0ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering quotes/index.html.erb within layouts/application
+  Rendered quotes/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 9611ms (Views: 9560.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2018-02-07 01:15:52 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (0.8ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering quotes/index.html.erb within layouts/application
+  Rendered quotes/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 10065ms (Views: 10014.4ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/" for 10.0.2.2 at 2018-02-07 01:16:14 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (1.9ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering quotes/index.html.erb within layouts/application
+  Rendered quotes/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 9911ms (Views: 9862.1ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/" for 10.0.2.2 at 2018-02-07 01:16:51 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (0.0ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering quotes/index.html.erb within layouts/application
+  Rendered quotes/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 9679ms (Views: 9629.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2018-02-07 01:17:28 +0000
+Cannot render console from 10.0.2.2! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by QuotesController#index as HTML
+  [1m[36mQuote Load (1.2ms)[0m  [1m[34mSELECT  "quotes".* FROM "quotes" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  Rendering quotes/index.html.erb within layouts/application
+  Rendered quotes/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 10023ms (Views: 9973.5ms | ActiveRecord: 1.2ms)
+
+
