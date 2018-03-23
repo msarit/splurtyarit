@@ -1,7 +1,16 @@
 <h2 class="tagline">
-  <span class="tagline">SPLURTY #<%= @quote.id %>:
+  <span class="tagline">
+    SPLURTY #<%= @quote.id %>:
   </span>
+  
   Bet you thought you were the <u>only</u> one... <%= image_tag 'winking.png' %>
+
 </h2>
-<h1><%= @quote.saying %></h1>
-<h2 class="float-right">- <%= @quote.author %></h2>
+
+<h1>
+  <%= @quote.saying %>
+</h1>
+
+<h2 class="float-right">
+  - <%= @quote.author %>
+</h2>

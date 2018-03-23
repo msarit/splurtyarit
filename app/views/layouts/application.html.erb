@@ -11,6 +11,7 @@
 
   <body>
     <header class="row">
+      
       <div class="col-2">
         <%= link_to root_path, class: 'logo' do %>
         <div class="circle">
@@ -23,14 +24,17 @@
         </div>
         <% end %>
       </div>
+      
       <div class="col col-sm-4 hidden-xs-down slogan">
         Sharing communal parenting woes since 2018
       </div>
+      
       <div class="col-10 offset-1 offset-sm-0 col-sm-5 links">
          <!-- Link to trigger modal -->
         <%= link_to 'Contribute', '#', data: {toggle: 'modal', target: '#myModal'} %>
         <%= link_to 'About', about_path %>
       </div>
+    
     </header>
 
 
@@ -42,7 +46,9 @@
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">×</span>
             </button>
-            <h4 class="modal-title" id="myModalLabel">Contribute Your Quote</h4>
+            <h4 class="modal-title" id="myModalLabel">
+              Contribute Your Quote
+            </h4>
           </div>
           <%= simple_form_for Quote.new do |f| %>
           <div class="modal-body">
@@ -52,10 +58,12 @@
               <%= f.input :author, label: "Who is the author of the quote?", placeholder: "e.g. Arit Amana Okwu" %>
               <br />
           </div>
+
           <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
             <%= f.submit 'Create', class: 'btn btn-danger' %>
           </div>
+          
           <% end %>
         </div>
       </div>
@@ -72,12 +80,13 @@
       <% end %>
     <%= yield %>
     </div>
+    
     <br class="clear" />
     <br />
     <br />
     <br />
 
-     <footer class="footer">
+    <footer class="footer">
       <div class="container">
         <div class="row">
             <div class="col-12 col-sm-6">
