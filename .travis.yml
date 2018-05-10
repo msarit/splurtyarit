@@ -1,6 +1,6 @@
 services:
   - postgresql
 
-before_script:
-  - psql -c "CREATE DATABASE splurty_test;" -U postgres
-  - psql -c "CREATE USER foo WITH PASSWORD 'bar';" -U postgres
+# before_script:
+#   - psql -c "CREATE DATABASE splurty_test;" -U postgres
+#   - psql -c "CREATE USER foo WITH PASSWORD 'bar';" -U postgres
