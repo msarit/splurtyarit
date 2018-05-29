@@ -1,4 +1,4 @@
-<img src="https://image.ibb.co/eXkXcd/github_splurty.png" />
+![Screenshot](https://image.ibb.co/b71NtJ/github_splurty.png)
 
 ## They-Say-It's-The-Best-Job
 A quote generator that randomly displays sayings about the challenges of parenting.
