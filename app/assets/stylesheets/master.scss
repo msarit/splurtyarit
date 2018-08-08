@@ -32,12 +32,15 @@ body {
 .slogan {
   font-family: "Palatino Linotype", Georgia, serif;
   font-style: italic;
-  padding-top: 50px;
   font-size: 1.25rem;
 }
 
 .links {
-  padding-top: 50px;
+  text-align: right;
+}
+
+
+.links-right {
   text-align: right;
 }
 
@@ -59,7 +62,7 @@ body {
   text-decoration: none;
 }
 
-header {
+.header-section {
   border-top: 9px solid #222222;
 }
 
@@ -152,4 +155,10 @@ h2 span {
 
 ::selection {
   background-color: #ecd5c2;
+}
+
+@media (min-width: 992px) {
+  .push-down {
+    padding-top: 50px;
+  }
 }

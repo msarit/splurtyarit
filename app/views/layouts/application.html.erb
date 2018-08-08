@@ -10,10 +10,8 @@
   </head>
 
   <body>
-    <header class="row">
-      
-      <div class="col-2">
-        <%= link_to root_path, class: 'logo' do %>
+    <nav class="navbar navbar-expand-lg navbar-light header-section">
+      <%= link_to root_path, class: 'logo' do %>
         <div class="circle">
           <br />
           They Say
@@ -22,20 +20,30 @@
           <br />
           Best Job
         </div>
-        <% end %>
+      <% end %>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <p class="navbar-nav mr-auto slogan d-none d-sm-block push-down">
+          Sharing communal parenting woes since 2018
+        </p>
+        <div class>
+          <ul class="navbar-nav mr-auto push-down">
+            <li class="nav-item links">
+              <!-- Link to trigger modal -->
+              <%= link_to 'Contribute', '#', data: {toggle: 'modal', target: '#myModal'} %>
+            </li>
+            
+            <li class="nav-item links">
+              <%= link_to 'About', about_path %>
+            </li>
+          </div>
+        </form>
       </div>
-      
-      <div class="col col-sm-4 hidden-xs-down slogan">
-        Sharing communal parenting woes since 2018
-      </div>
-      
-      <div class="col-10 offset-1 offset-sm-0 col-sm-5 links">
-         <!-- Link to trigger modal -->
-        <%= link_to 'Contribute', '#', data: {toggle: 'modal', target: '#myModal'} %>
-        <%= link_to 'About', about_path %>
-      </div>
-    
-    </header>
+    </nav>
 
 
     <!-- Modal -->
